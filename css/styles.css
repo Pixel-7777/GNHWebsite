@@ -548,3 +548,34 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }
 
+/* Add this to your existing CSS */
+/* Add this to your existing CSS */
+.logo-link {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  text-decoration: none;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack logo and MP-061 vertically */
+  align-items: center; /* Center the logo and MP-061 horizontally */
+  margin-right: 15px; /* Space between logo and hospital name */
+}
+
+.logo-subtext {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 0.25rem; /* Adjust spacing as needed */
+  margin-left: -9px
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
